@@ -130,3 +130,62 @@ iframe {
         height: 100%;
     }
 }
+
+@keyframes aparecer {
+    16% {
+        opacity: 1;
+    }
+
+    16%, 50% {
+        opacity: 0;
+    }
+
+    51% {
+        opacity: 1;
+    }
+
+    52%, 79% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    81%, 99% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes moverX {
+  from {left: 0;}
+  to {left: 75%;}
+}
+
+
+@keyframes moverY {
+  from {top: 0;}
+  to {top: 25%;}
+}
+
+.easter_egg {
+    width: 25%;
+    position: absolute;
+    opacity: 0;
+    animation:
+    aparecer 67s ease-out 6.7s infinite forwards alternate,
+    moverX 5s linear infinite alternate, 
+    moverY 4s linear infinite alternate;
+}
+
+#fofinho {
+    width: 10%;
+    position: relative;
+    bottom: -670px;
+    left: -670px;
+    opacity: 0.05;
+}
