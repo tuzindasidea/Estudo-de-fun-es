@@ -1,10 +1,117 @@
+
 html {
     background-color: #202122;
     color: rgb(255, 255, 255);
+    
+}
+li {
+    list-style-type: none; /* remove as bolinhas da lista */
+}
+a {
+    color: rgb(170, 36, 211);
 }
 
 body {
     text-align: justify;
-    margin-left: 2%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header p {
+    text-align: center;
+}
+
+.nav-item a:hover {
+    color: aqua;
+}
+#complexo:hover {
+    color: rgb(1, 13, 124);
+}
+
+#complexo:visited {
+    color: rgb(108, 213, 231);
+}
+
+.imagem-intelectuais {
+    width: 500px;
+    height: 600px;
+    border: solid black 1px;
+    border-radius: 5%;
+    
+}
+
+
+/* Estilo do Botão Hambúrguer (fixo na tela) */
+.menu-btn {
+    font-size: 30px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: none;
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    z-index: 1;
+}
+
+
+.sidebar {
+    height: 100vh;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px; 
+    background-color: #1a1a1a; 
+    transition: left 0.3s ease; 
+    padding-top: 60px;
+    z-index: 2; 
+}
+
+
+.sidebar.ativa {
+    left: 0;
+}
+
+
+.fechar-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+.nav-lista {
+    list-style-type: none; /* Remove as bolinhas da lista */
+    padding: 0;
+}
+
+.nav-item {
+    padding: 15px 20px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    display: block;
+    transition: color 0.2s;
+}
+
+.nav-item a:hover {
+    color: aqua;
+}
+
+.funcao {
+    width: 30%;
+    margin-left: 30%;
+    margin-right: 30%;
 }
