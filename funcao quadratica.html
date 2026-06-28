@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Estudo de Funções Matemáticas
+
+    </title>
+    <link rel="shortcut icon" href="imagens/logotipo.png" type="">
+</head>
+<body class="pagina">
+
+    <button class="menu-btn" id="menuBtn">☰</button>
+
+    <div class="sidebar" id="sidebar">
+        <button class="fechar-btn" id="fecharBtn">✕</button>
+        <nav class="nav">
+            <ul class="nav-lista">
+                <li class="nav-item"><a href="index.html">Início</a></li>
+                <li class="nav-item"><a href="conjuntos.html">Estudo de Conjuntos</a></li>
+                <li class="nav-item"><a href="funcoes.html">Estrutura básica de Funções</a></li>
+                <li class="nav-item"><a href="funcao constante.html">Função Constante</a></li>
+                <li class="nav-item"><a href="funcao afim.html">Função Afim</a></li>
+                <li class="nav-item"><a href="funcao quadratica.html">Função Quadrática</a></li>
+                <li class="nav-item"><a href="funcao exponencial.html">Função Exponencial</a></li>
+                <li class="nav-item"><a href="funcao logaritma.html">Função Logarítma</a></li>
+                <li class="nav-item"><a href="funcao modular.html">Função Modular</a></li>
+                <li class="nav-item"><a href="creditos.html">Sobre Nós</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <header class="header">
+        <h1 class="titulo_header">Fundamentos da Matemática</h1>
+        <p><em>Um estudo sobre funções</em></p>
+    </header>
+
+    <main>
+        <h2>Função quadrática</h2>
+
+        <p>
+            A função quadrática é uma relação entre reais representada na forma
+            "<em>f(x) = ax² + bx + c</em>"
+        </p>
+
+        <p>
+            Sua representação no plano cartesiano é uma parábola, e essa função possui duas raízes
+        </p>
+        
+        <img src="imagens/funcoes/raizes-funcao-quadratica.webp" class="funcao" alt="Representação gráfica da função de segundo grau como uma parábola">
+
+        <h3>Propriedades da função quadrática</h3>
+
+        <h4>Concavidade da parábola</h4>
+
+        <p>
+            O coeficiente a representa a concavidade de uma parábola.
+            Se a > 0, a parábola é côncava para cima e possui ponto mínimo,
+            e se a < 0, a parábola é côncava para baixo e possui ponto máximo.
+            Se a for igual a 0, a função não é quadrática, mas sim, afim.
+        </p>
+
+        <h4>Coeficientes b e c</h4>
+
+        <p>
+            O coeficiente b representa se a parábola atravessa o eixo y crescendo
+            ou decrescendo. Se b > 0, a parábola atravessa y crescendo. Se b < 0,
+            a parábola atravessa y decrescendo. Se b = 0, a parábola passa por y
+            em seu ponto mínimo ou máximo.
+        </p>
+
+        <p>
+            Já o coeficiente c representa o ponto no qual a parábola passa
+            pelo eixo y.
+        </p>
+
+        <h4>Raízes da função quadrática</h4>
+
+        <p>
+            A função quadrática possui duas raízes, que podem ser encontradas
+            por meio de várias formas:
+        </p>
+
+        <h4>Soma e produto</h4>
+
+        <p class="resolucao">
+            Soma: a soma das duas raízes da função é igual a -b/a<br>
+            Produto: o produto entre as duas raízes é igual a c/a<br>
+            Com isso, é possível fazer um sistema de equação e achar as raízes da função.
+        </p>
+
+        <h4>Fórmula de Bháskara</h4>
+
+        <p class="resolucao">
+            Para calcular com a fórmula de Bháskara, primeiro se acha o valor de delta.<br>
+            Δ = b² - 4 . a . c<br>
+            Com isso, calculamos o valor das raizes:<br>
+            x = (-b +- √Δ) / 2 . a
+        </p>
+
+        <h4>Trinômio quadrado perfeito (T.Q.P)</h4>
+
+        <p class="resolucao">
+            Para achar as raizes da função de segundo grau por meio do 
+            t.q.p, devemos fatorar a equação de segundo grau, como no exemplo:<br>
+            x² + 6x + 9 → (x + 3)²<br>
+            Depois disso, basta achar os valores de x resolvendo a equação normalmente.
+        </p>
+
+    </main>
+
+    <footer>
+
+
+
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
