@@ -13,4 +13,3 @@ const fecharMenu = () => {
 };
 
 fecharBtn.addEventListener('click', fecharMenu);
-overlay.addEventListener('click', fecharMenu); 
